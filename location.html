@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire avec Boutons</title>
+    <!-- Lien vers le fichier CSS externe -->
+    <link rel="stylesheet" href="location.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Fiche locataire</h2>
+        <form action="#" method="POST">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="adresse">Adresse :</label>
+                    <input type="text" id="adresse" name="adresse" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="telephoneGsm">Téléphone GSM :</label>
+                    <input type="text" id="telephoneGsm" name="telephoneGsm" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telephoneFix">Téléphone fixe :</label>
+                    <input type="text" id="telephoneFix" name="telephoneFix" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="vehicule">Véhicule :</label>
+                    <input type="text" id="vehicule" name="vehicule" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="plaque">Plaque :</label>
+                    <input type="text" id="plaque" name="plaque" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="montant">Montant :</label>
+                    <input type="text" id="montant" name="montant" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="caution">Caution :</label>
+                    <input type="text" id="caution" name="caution" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="badge1">Numéro badge 1 :</label>
+                    <input type="text" id="badge1" name="badge1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="badge2">Numéro badge 2 :</label>
+                    <input type="text" id="badge2" name="badge2" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="badge3">Numéro badge 3 :</label>
+                    <input type="text" id="badge3" name="badge3" required>
+                </div>
+                <div class="form-group">
+                    <label for="badge4">Numéro badge 4 :</label>
+                    <input type="text" id="badge4" name="badge4" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="site">Site :</label>
+                    <select id="site" name="site">
+                        <option value="Rue du Beau Chêne">Rue du Beau Chêne</option>
+                        <option value="Rue Sainte Thérèse">Rue Saint Thérèse</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="emplacment">Emplacement :</label>
+                    <select id="emplacment" name="emplacment">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">5</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="date">Date début contrat :</label>
+                    <input type="text" id="date" name="date" required>
+                </div>
+
+            </div>
+
+            <button type="button" id="btnValide" class="btn btn-info">Sauvegarder</button>
+            <button type="button" id="display" class="btn btn-danger">Afficher</button>
+            <button type="button" class="btn btn-warning">Modifier</button>
+        </form>
+    </div>
+
+    <!-- Lien vers le fichier JavaScript externe -->
+    <script src="location.js"></script>
+    <script src="display.js"></script>
+</body>
+
+</html>
